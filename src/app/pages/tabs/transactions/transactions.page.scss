@@ -1,0 +1,24 @@
+ion-header {
+    ion-toolbar {
+        --background: var(--ion-color-secondary);
+        ion-segment {
+            --background: var(--ion-color-primary);
+            ion-segment-button {
+                --color: var(--ion-color-white);
+                --color-checked: var(--ion-color-primary);
+            }
+        }
+    }
+}
+
+ion-content {
+    --offset-bottom: auto!important;
+    --overflow: hidden;
+    overflow: auto;
+    &::-webkit-scrollbar {
+    display: none;
+    }
+    ion-list {
+        margin-top: 2rem;
+    }
+}

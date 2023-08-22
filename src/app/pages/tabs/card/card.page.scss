@@ -1,0 +1,17 @@
+ion-content {
+    --offset-bottom: auto!important;
+    --overflow: hidden;
+    overflow: auto;
+    &::-webkit-scrollbar {
+    display: none;
+    }
+    .bg_circle {
+        position: absolute;
+        width: 33vh;
+        height: 33vh;
+        left: -8rem;
+        top: 7vh;
+        border-radius: 50%;
+        background: rgba(117, 254, 172, 0.72);
+    }
+}
