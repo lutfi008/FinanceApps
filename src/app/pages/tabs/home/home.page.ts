@@ -32,11 +32,11 @@ export class HomePage implements OnInit, AfterContentChecked {
       { id: 5, color: 'warning', icon: 'card', name: 'Cards' },
     ];
     this.transactions = [
-      { id: 1, to: 'Piyush Ag.', date: '2022-05-22', amount: 5000 },
-      { id: 2, to: 'Avinash', date: '2022-03-02', amount: 7000 },
-      { id: 3, to: 'Catherine', date: '2022-07-28', amount: -3250 },
-      { id: 4, to: 'Akhil Ag.', date: '2022-01-09', amount: 1000 },
-      { id: 5, to: 'Prem Ag.', date: '2022-04-13', amount: -800 },
+      { id: 1, to: 'Ardi', date: '2023-08-20', amount: 5000 },
+      { id: 2, to: 'Indah', date: '2023-08-10', amount: 7000 },
+      { id: 3, to: 'Ikmal', date: '2023-07-12', amount: -3250 },
+      { id: 4, to: 'Lutfi', date: '2023-07-01', amount: 1000 },
+      { id: 5, to: 'Andri', date: '2023-06-21', amount: -800 },
     ];
   }
 

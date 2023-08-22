@@ -3,7 +3,7 @@
     <ion-title mode="md" class="ion-no-padding">
       <ion-label>
         <ion-text color="tertiary">Welcome</ion-text>
-        <p><ion-text color="white"><strong>Nikhil Ag.</strong></ion-text></p>
+        <p><ion-text color="white"><strong>Lutfi</strong></ion-text></p>
       </ion-label>
     </ion-title>
     <ion-avatar slot="end">
@@ -20,7 +20,7 @@
         <div align="center">
           <ion-label>
             <span>Total Balance</span>
-            <p class="acc-amt"><ion-text color="white">₹{{account?.balance}}</ion-text></p>
+            <p class="acc-amt"><ion-text color="white">Rp{{account?.balance}}</ion-text></p>
             <span>{{account?.acc_no}}</span>
           </ion-label>
         </div>
@@ -61,7 +61,7 @@
           </p>
         </ion-label>
         <ion-text slot="end" color="primary">
-          {{transaction?.amount >= 0 ? '₹' + transaction?.amount : '-₹' + (transaction?.amount * (-1))}}
+          {{transaction?.amount >= 0 ? 'Rp' + transaction?.amount : '-Rp' + (transaction?.amount * (-1))}}
         </ion-text>
       </ion-item>
     </ion-item-group>
